@@ -18,15 +18,30 @@
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
     <style>
-        body {
-            background-color: #c1c1c1
-        }
-
         h2 {
             color: #fff;
             margin-bottom: 40px;
             text-align: center;
             font-weight: 100;
+        }
+
+        a:hover {
+            color: #232065 !important;
+        }
+
+        a {
+            color: #232065;
+        }
+
+        .card {
+            background-color: #fff;
+            border: none;
+        }
+
+        .gallerysection {
+            background-image: url("./images/land.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 </head>
@@ -93,7 +108,7 @@
     </header>
 
     <section id="gallery" class="gallery">
-        <div class="container-fluid w-100 mb-5" style="padding: 0px">
+        <div class="container-fluid w-100 mb-5 gallerysection" style="padding: 0px">
             <div class="section-title">
                 <h1 class="text-center">Gallery</span></h1>
 
@@ -102,234 +117,66 @@
         <div class="container-fluid" style="margin-top:40px; padding-left: 10px;">
             <!-- <h2>SA High School Gallery</h2> -->
             <div class="demo-gallery">
-                <ul id="lightgallery" class="list-unstyled row">
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-                        data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-                            <h3>Event 01</h3>
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-2.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-13.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-4.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-                        data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-2.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-13.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-4.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                        data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-2.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-2.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-13.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
-                        data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-4.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-2.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-13.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
-                        data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-4.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/1-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="./gallery.html">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-2.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="./gallery.html">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-13.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="./gallery.html">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-13.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="./gallery.html">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-13.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="./gallery.html">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-13.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="./gallery.html">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-13.jpg">
-                        </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-4 col-md-2 col-lg-2"
-                        data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                        data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                        <a href="./gallery.html">
-                            <img class="img-responsive"
-                                src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-13.jpg">
-                        </a>
-                    </li>
-                </ul>
+
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <a href="./gallery.html">
+
+                                <img class="card-img-top"
+                                    src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Independence Day</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <a href="./gallery.html">
+
+                                <img class="card-img-top"
+                                    src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Independence Day</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <a href="./gallery.html">
+
+                                <img class="card-img-top"
+                                    src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Independence Day</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <a href="./gallery.html">
+
+                                <img class="card-img-top"
+                                    src="https://sachinchoolur.github.io/lightgallery.js/static/img/thumb-1.jpg"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Independence Day</h5>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         <footer class="lightColor">

@@ -1,5 +1,5 @@
 body {
-  background-color: #152836;
+  background-color: #fff !important;
 }
 h2 {
   color: #fff;
@@ -132,6 +132,15 @@ h2 {
   align-items: center;
 }
 
+span.lg-dropdown-text {
+  color: #232065;
+}
+#gallery > div.container-fluid {
+  padding: 0px;
+}
+#lightgallery > li > a > img {
+  padding-right: 0px;
+}
 /* NAVBAR STYLES */
 #header div {
   background: #2b2f47;
@@ -147,14 +156,14 @@ body {
   padding: 10px;
 }
 #mainTop {
-  background-image: url("../images/lang.jpg");
+  background-image: url("./images/land.jpg");
   padding: 70px;
 }
 #modalmain img {
-  width: 300px;
+  width: 200px;
 }
 #modalmain img:hover {
-  width: 350px;
+  width: 250px;
 }
 ul {
   list-style: none;
@@ -164,7 +173,7 @@ a {
   text-decoration: none;
 }
 #gallery .section-title {
-  background-image: url("../images/lang.jpg");
+  background-image: url("./images/land.jpg");
   width: 100%;
   padding: 70px;
 }
