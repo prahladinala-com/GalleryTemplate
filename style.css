@@ -11,14 +11,15 @@ h2 {
   margin-bottom: 0;
 }
 .demo-gallery > ul > li {
-  float: left;
-  margin-bottom: 15px;
-  margin-right: 20px;
-  width: 150px;
+  /* float: left; */
+  /* margin-bottom: 5px; */
+  /* margin-right: 5px; */
+  width: 100px;
+  /* width: 100%; */
 }
 .demo-gallery > ul > li a {
   /* border: 3px solid #fff; */
-  border-radius: 3px;
+  /* border-radius: 3px; */
   display: block;
   overflow: hidden;
   position: relative;
@@ -243,3 +244,25 @@ a {
 .darkText {
   color: black;
 }
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+.nav-link {
+  color: #232065 !important;
+}
+.nav-item:hover {
+  background-color: red;
+}
+.col-lg-6 {
+  overflow-wrap: break-word;
+}
+
+color: #fff !important;
+box-sizing: border-box;
+vertical-align: middle;
+border-style: none;
+transition: transform 0.15s ease 0s;
+transform: scale3d(1, 1, 1);
+width: 100%;
+padding-right: 0px;
